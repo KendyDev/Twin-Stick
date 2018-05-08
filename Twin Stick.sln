@@ -1,7 +1,11 @@
 ﻿
 Microsoft Visual Studio Solution File, Format Version 12.00
 # Visual Studio 2015
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Twin Stick.Plugins", "Twin Stick.Plugins.csproj", "{DEA91D83-08A4-834F-A18F-E8AE663DACD1}"
+EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Twin Stick", "Twin Stick.csproj", "{202E599D-D4AD-E76A-C40B-7D29DDD67EC0}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Twin Stick.Editor", "Twin Stick.Editor.csproj", "{AF195862-D179-A742-9277-9508CA425899}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
@@ -9,10 +13,18 @@ Global
 		Release|Any CPU = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{DEA91D83-08A4-834F-A18F-E8AE663DACD1}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{DEA91D83-08A4-834F-A18F-E8AE663DACD1}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{DEA91D83-08A4-834F-A18F-E8AE663DACD1}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{DEA91D83-08A4-834F-A18F-E8AE663DACD1}.Release|Any CPU.Build.0 = Release|Any CPU
 		{202E599D-D4AD-E76A-C40B-7D29DDD67EC0}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
 		{202E599D-D4AD-E76A-C40B-7D29DDD67EC0}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{202E599D-D4AD-E76A-C40B-7D29DDD67EC0}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{202E599D-D4AD-E76A-C40B-7D29DDD67EC0}.Release|Any CPU.Build.0 = Release|Any CPU
+		{AF195862-D179-A742-9277-9508CA425899}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{AF195862-D179-A742-9277-9508CA425899}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{AF195862-D179-A742-9277-9508CA425899}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{AF195862-D179-A742-9277-9508CA425899}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
